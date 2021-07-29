@@ -56,8 +56,7 @@ class player(object):
             else:
                 win.blit(char, (self.x,self.y))
         self.hitbox=(self.x+17, self.y+2,31,57)
-        pygame.draw.rect(win, (0,0,0), self.hitbox, 2)
-    
+        
     def hit(self):
         self.x=60
         self.y=410
