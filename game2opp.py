@@ -62,6 +62,7 @@ class player(object):
         self.x=60
         self.y=410
         self.walkcount=0
+        self.isJump=False
         self.jumpCount=10
         font1=pygame.font.SysFont('comicsans', 100, bold=True, italic=False)
         text1=font1.render('-5', 1, (255,0,0))
